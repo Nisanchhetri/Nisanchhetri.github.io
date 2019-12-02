@@ -6,9 +6,10 @@ body, html {
   margin: 0;
   background: rgb(238, 238, 238);
   font-family: Ubuntu;
+  font-variant-caps: petite-caps;
   letter-spacing: 0.65px;
   font-size: 15px;
-  color: rgb(24, 22, 22);
+  color: rgb(0, 0, 0);
   cursor: default;
 }
 
@@ -25,18 +26,18 @@ ul {
 }
 
 h3 {
-  color: #3d405b;
-  margin: 10px 0;
+  color: #0d0f24;
+  margin: 15px 0;
   text-transform: uppercase;
   font-size: 18px;
 }
 
 .resume {
   width: 870px;
-  background: #e6e9e9;
+  background: #e6ecec;
   margin: 20px auto;
-  border: 1px solid #bbb;
-  box-shadow: 0 0 20px -3px #bbb;
+  border: 1px solid rgb(177, 174, 174);
+  box-shadow: 0 0 20px -3px rgb(156, 154, 154);
   position: relative;
   display: flex;
 }
@@ -44,7 +45,7 @@ h3 {
   content: "";
   width: 100%;
   height: 6px;
-  background: #8d9e78;
+  background: #78989e;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -67,10 +68,10 @@ h3 {
 .resume .base {
   width: 225px;
   padding: 30px 15px;
-  background: rgba(238, 238, 238, 0.6);
+  background: rgba(156, 172, 179, 0.6);
 }
 .resume .base .profile {
-  background: #0c1214;
+  background: #262727;
   padding: 10px 15px 5px 15px;
   margin: -30px -15px 45px -15px;
   position: relative;
@@ -79,7 +80,7 @@ h3 {
 .resume .base .profile::after {
   content: "";
   position: absolute;
-  background: #0c1214;
+  background: #262727;
   width: 100%;
   height: 30px;
   bottom: -15px;
@@ -94,7 +95,7 @@ h3 {
 }
 .resume .base .profile .info {
   text-align: center;
-  color: #fcfcfc;
+  color: #ffffff;
 }
 .resume .base .profile .info .name {
   margin-top: 7px;
@@ -106,13 +107,13 @@ h3 {
   line-height: 24px;
 }
 .resume .base .contact div a:hover {
-  color: #e07a5f;
+  color: rgba(172, 4, 4, 0.74);
 }
 .resume .base .contact div a:hover span::after {
   width: 100%;
 }
 .resume .base .contact div:hover i {
-  color: #e07a5f;
+  color: rgba(172, 4, 4, 0.74);
 }
 .resume .base .contact div i {
   color: #0c1214;
@@ -139,13 +140,15 @@ h3 {
 .resume .base .follow .box {
   text-align: center;
   vertical-align: middle;
+  margin-top: 20px;
+  margin-right: 35px;
 }
 .resume .base .follow .box a {
   display: inline-block;
   vertical-align: text-bottom;
 }
 .resume .base .follow .box a:hover i {
-  background: #e07a5f;
+  background: rgba(172, 4, 4, 0.74);
   border-radius: 5px;
   transform: rotate(45deg) scale(0.8);
 }
@@ -220,7 +223,7 @@ h3 {
   animation: circle 1.2s infinite;
 }
 .resume .func .work ul li:hover span, .resume .func .edu ul li:hover span {
-  color: #e07a5f;
+  color: #b60000;
 }
 @keyframes circle {
   from {
@@ -284,11 +287,11 @@ h3 {
   transition-duration: 0.3s;
 }
 .resume .func .skills-prog ul li:hover {
-  color: #e07a5f;
+  color: #b60000;
 }
 .resume .func .skills-prog ul li:hover .skills-bar .bar {
-  background: #e07a5f;
-  box-shadow: 0 0 0 1px #e07a5f;
+  background: #b60000;
+  box-shadow: 0 0 0 1px #b60000;
 }
 .resume .func .skills-prog ul li span {
   display: block;
@@ -318,7 +321,7 @@ h3 {
   position: relative;
 }
 .resume .func .skills-soft ul li:hover svg .cbar {
-  stroke: #e07a5f;
+  stroke: #b60000;
   stroke-width: 4px;
 }
 .resume .func .skills-soft ul li:hover span, .resume .func .skills-soft ul li:hover small {
@@ -367,7 +370,7 @@ h3 {
   transform: scale(1.2);
 }
 .resume .func .interests-items div:hover span {
-  color: #e07a5f;
+  color: #b60000;
   transition-duration: 0.3s;
 }
 .resume .func .interests-items div i {
@@ -386,7 +389,7 @@ h3 {
   width: 50px;
   height: 50px;
   margin-top: 5px;
-  fill: #8d9e78;
+  fill: #78959e;
 }
 .resume .func .interests-items div span {
   display: block;
