@@ -130,7 +130,7 @@ h3 {
 .resume .base .contact div span::after {
   content: "";
   position: absolute;
-  background: #e07a5f;
+  background: rgba(172, 4, 4, 0.74);
   height: 1px;
   width: 0;
   bottom: 0;
