@@ -5,8 +5,8 @@
 body, html {
   margin: 0;
   background: rgb(238, 238, 238);
-  font-family: Ubuntu;
-  font-variant-caps: petite-caps;
+  font-family: "Gill Sans", sans-serif;
+  font-variant-caps: titling-caps;
   letter-spacing: 0.65px;
   font-size: 15px;
   color: rgb(0, 0, 0);
@@ -278,12 +278,12 @@ h3 {
   clear: both;
 }
 .resume .func .skills-prog ul {
-  margin-left: 15px;
+  margin-left: 20px;
 }
 .resume .func .skills-prog ul li {
-  margin-bottom: 8px;
-  display: flex;
-  align-items: center;
+  margin-bottom: 15px;
+  display: run-in;
+  align-items: normal;
   transition-duration: 0.3s;
 }
 .resume .func .skills-prog ul li:hover {
@@ -294,25 +294,66 @@ h3 {
   box-shadow: 0 0 0 1px #b60000;
 }
 .resume .func .skills-prog ul li span {
-  display: block;
-  width: 120px;
+  display: flex;
+  font-style: inherit;
+  width: 200px;
 }
 .resume .func .skills-prog ul li .skills-bar {
   background: #cdcdcd;
   height: 2px;
   width: calc(100% - 120px);
-  position: relative;
+  position: sticky;
   border-radius: 2px;
 }
 .resume .func .skills-prog ul li .skills-bar .bar {
-  position: absolute;
+  position: fixed;
   top: -1px;
   height: 4px;
   background: #282b2c;
   box-shadow: 0 0 0 #3e7573;
   border-radius: 5px;
 }
+
+.resume .func .skills-soft {
+  clear: both;
+}
 .resume .func .skills-soft ul {
+  margin-left: 20px;
+}
+.resume .func .skills-soft ul li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  transition-duration: 0.3s;
+}
+.resume .func .skills-soft ul li:hover {
+  color: #b60000;
+}
+.resume .func .skills-soft ul li:hover .skills-bar .bar {
+  background: #b60000;
+  box-shadow: 0 0 0 1px #b60000;
+}
+.resume .func .skills-soft ul li span {
+  display: flex;
+  width: 120px;
+}
+.resume .func .skills-soft ul li .skills-bar {
+  background: #cdcdcd;
+  height: 2px;
+  width: calc(100% - 120px);
+  position: sticky;
+  border-radius: 2px;
+}
+.resume .func .skills-soft ul li .skills-bar .bar {
+  position: fixed;
+  top: -1px;
+  height: 4px;
+  background: #282b2c;
+  box-shadow: 0 0 0 #3e7573;
+  border-radius: 5px;
+}
+
+/* .resume .func .skills-soft ul {
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -350,7 +391,7 @@ h3 {
 }
 .resume .func .skills-soft ul li span {
   top: 40%;
-}
+} */
 .resume .func .interests-items {
   box-sizing: border-box;
   padding: 15px;
