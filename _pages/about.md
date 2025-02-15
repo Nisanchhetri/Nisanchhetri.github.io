@@ -25,4 +25,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, welcome to my profile. I am Nisan Chhetri, 4th year PhD student in Computer Science at NC State University.
+Hi, welcome to my profile. I am Nisan Chhetri, 4th year PhD student in Computer Science at NC State University. My research focuses on understanding the psychological properties of creativity in the image domain. I am investigating machine learning techniques to understand the properties of images that lead to creativity under the supervision of Dr. Christopher Healey.
